@@ -25,6 +25,13 @@
 		<sonar.host.url>http://192.168.50.4:9000</sonar.host.url>
 		<sonar.login>squ_1ee78b2886e68c56bfe040b746d92343669b6c03</sonar.login>
     </properties>
+	<distributionManagement>
+	<repository>
+	<id>deployment</id>
+	<name>Nexus Repository</name>
+	<url>http://192.168.50.4:8081/repository/deployment/</url>
+	</repository>
+	</distributionManagement>
     <dependencies>
 
         <dependency>
